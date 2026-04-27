@@ -24,3 +24,10 @@ public;
 };
 
 void siswa::displayAll(orang &a)
+{
+    cout << id << endl << a.nama;
+}
+void orang::setNama(string pNama)
+{
+    nama = pNama;
+}
