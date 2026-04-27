@@ -18,7 +18,7 @@ class siswa
 private:
     int id;
 
-public;
+public:
     void setId(int pId);
     void displayAll(orang &a);
 };
@@ -38,5 +38,9 @@ void siswa::setId(int pId)
 int main()
 {
     orang joko;
-    joko.setNama
+    joko.setNama("Joko Kunat");
+    siswa joko_siswa;
+    joko_siswa.setId(1);
+    joko_siswa.displayAll(joko);
+    return 0;
 }
