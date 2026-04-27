@@ -18,4 +18,6 @@ void setNama(mahasiswa 8a, string b)
 int main()
 {
     mahasiswa joko;
+    setNama(joko, "Joko Kumat");
+    return 0;
 }
